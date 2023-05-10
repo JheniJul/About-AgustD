@@ -1,0 +1,110 @@
+body {
+    background-color: black;
+	padding: 0;
+	margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+	background: url('https://lastfm.freetls.fastly.net/i/u/770x0/42de76a862c692e543b3dd90bc4f74a2.jpg#42de76a862c692e543b3dd90bc4f74a2');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.dentro{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+}
+.text {
+	width: 100%;
+	height: 100vh;
+	background: url('https://lastfm.freetls.fastly.net/i/u/770x0/42de76a862c692e543b3dd90bc4f74a2.jpg#42de76a862c692e543b3dd90bc4f74a2');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-weight: bold;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+    flex-direction: column;
+	text-align: justify;
+	max-width: 100%;
+}
+span{
+	text-shadow: 0 0 20px rgba(255,255,255,.2);
+    font-size: 7em;
+}
+
+header p{
+    -webkit-text-fill-color: #fff;
+    font-family: 'Helvetica', 'Source Sans', sans-serif;
+}
+
+#lateral{
+    position: relative;
+    display: inline;
+    transform: rotate(90deg);
+    float: right;
+    top: 50px;
+    width: 20px;
+    height: 70px;
+    right: 25px;
+    
+    font-size: 40px;
+    color: #a64942;
+    background-color: #a64942;
+    text-shadow: 0 0 20px rgba(255,255,255,.2);
+}
+#subtitulo p{
+    position: relative;
+    bottom: 30px;
+}
+
+#container{
+    font-size: 17px;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+#container .albuns{
+    width: 30%;
+    display: inline-block;
+    height: 750px;
+}
+#container .albuns h2{
+    color: #a64942;
+	text-shadow: 0 0 20px rgba(255,255,255,.2);
+}
+#container .albuns h2, ul{
+    padding: 0px 20px;
+}
+#container .albuns ul{
+    padding: 0px 40px;
+    list-style-type: decimal;
+    line-height: 30px;
+}
+#container img{
+    max-width: 320px;
+    height: auto;
+    padding: 20px;
+}
+
+#rodape{
+    background-color: #a64942;
+    color: whitesmoke;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+
+
+
+
